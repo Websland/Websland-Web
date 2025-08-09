@@ -1,0 +1,234 @@
+<!-- contacto.html -->
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contáctanos para soluciones digitales en Websland">
+    <title>Contacto - Websland</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="https://i.imgur.com/p1SwNTv.png">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="https://i.imgur.com/ugK3HIo.png" alt="Websland Logo" class="logo-img" id="headerLogo">
+            </a>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="nosotros.html" class="nav-link">Nosotros</a>
+                <a href="faq.html" class="nav-link">FAQ</a>
+                <a href="proyectos.html" class="nav-link">Proyectos</a>
+                <a href="contacto.html" class="nav-link active">Contacto</a>
+                
+                <div class="nav-dropdown">
+                    <div class="dropdown-toggle">
+                        <span class="nav-link">Comunidad</span>
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="https://discord.gg/RGnM8sGJ28" class="dropdown-item">Discord</a>
+                        <a href="https://www.instagram.com/webs.land/" class="dropdown-item">Instagram</a>
+                        <a href="https://github.com/Websland" class="dropdown-item">GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="nav-dropdown">
+                    <div class="dropdown-toggle">
+                        <span class="nav-link">Legal</span>
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="politica-de-privacidad.html" class="dropdown-item">Política de Privacidad</a>
+                        <a href="terminos-y-condiciones-de-uso.html" class="dropdown-item">Términos y Condiciones</a>
+                        <a href="aviso-legal.html" class="dropdown-item">Aviso Legal</a>
+                    </div>
+                </div>
+            </nav>
+            
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+
+    <!-- Hero Contacto -->
+    <section class="hero" style="min-height: 70vh;">
+        <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Contáctanos</h1>
+                <p class="hero-subtitle">
+                    ¿Listo para comenzar tu próximo proyecto digital? Estamos aquí para ayudarte
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2>Envíanos un Mensaje</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nombre Completo</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Teléfono</label>
+                            <input type="tel" id="phone" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Asunto</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea id="message" class="form-control" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-ripple">Enviar Mensaje</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h2>Información de Contacto</h2>
+                    <p>Estamos disponibles para responder tus preguntas y discutir cómo podemos ayudarte a alcanzar tus objetivos digitales.</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Dirección</h3>
+                            <p>Av. Principal 123, 28001 Madrid, España</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Teléfono</h3>
+                            <p>+34 91 123 45 67</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>info@websland.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Horario</h3>
+                            <p>Lunes a Viernes: 9:00 - 18:00</p>
+                            <p>Sábados y Domingos: Cerrado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.496841048129!2d-3.703790423921337!3d40.41677575586381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287e9a3a5e0f%3A0x8636c2aecb59a2d9!2sPlaza%20Mayor%2C%20Madrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1684321024566!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="https://i.imgur.com/ugK3HIo.png" alt="Websland Logo" class="logo-img" id="footerLogo">
+                        <h3>Websland</h3>
+                    <p>Transformando ideas en experiencias digitales excepcionales desde 2022.</p>
+                    <div class="social-links">
+                        <a href="https://discord.gg/RGnM8sGJ28" class="social-link">
+                            <i class="fa-brands fa-discord"></i>
+                        </a>
+                        <a href="https://www.instagram.com/webs.land/" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="github.com/Websland" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="index.html">Inicio</a></li>
+                        <li class="footer-link"><a href="nosotros.html">Nosotros</a></li>
+                        <li class="footer-link"><a href="faq.html">FAQ</a></li>
+                        <li class="footer-link"><a href="proyectos.html">Proyectos</a></li>
+                        <li class="footer-link"><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Servicios</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="servicios.html">Desarrollo Web</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contacto</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link">
+                            <i class="fas fa-map-marker-alt"></i> Córdoba, Argentina
+                        </li>
+                        <li class="footer-link">
+                            <i class="fas fa-envelope"></i> websland.support@protonmail.com
+                        </li>
+                        <li class="footer-link">
+                            <i class="fas fa-clock"></i> L-V: 14:30 - 20:00
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Websland. Todos los derechos reservados.</p>
+                <div style="margin-top: 0.5rem;">
+                    <a href="politica-de-privacidad.html" style="margin: 0 10px;">Política de Privacidad</a>
+                    <a href="terminos-y-condiciones-de-uso.html" style="margin: 0 10px;">Términos y Condiciones</a>
+                    <a href="aviso-legal.html" style="margin: 0 10px;">Aviso Legal</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
