@@ -80,35 +80,36 @@
             <div class="contact-grid">
                 <div class="contact-form">
                     <h2>Envíanos un Mensaje</h2>
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name" class="form-label">Nombre Completo</label>
-                            <input type="text" id="name" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email" class="form-label">Correo Electrónico</label>
-                            <input type="email" id="email" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="phone" class="form-label">Teléfono</label>
-                            <input type="tel" id="phone" class="form-control">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject" class="form-label">Asunto</label>
-                            <input type="text" id="subject" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message" class="form-label">Mensaje</label>
-                            <textarea id="message" class="form-control" rows="6" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary btn-ripple">Enviar Mensaje</button>
-                    </form>
-                </div>
+                        <form action="mailto:websland.support@protonmail.com" method="POST" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nombre Completo</label>
+                                <input type="text" id="name" name="Nombre" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" id="email" name="Correo" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Teléfono</label>
+                                <input type="tel" id="phone" name="Teléfono" class="form-control">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Asunto</label>
+                                <input type="text" id="subject" name="Asunto" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Mensaje</label>
+                                <textarea id="message" name="Mensaje" class="form-control" rows="6" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-ripple">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                
                 
                 <div class="contact-info">
                     <h2>Información de Contacto</h2>
@@ -120,18 +121,10 @@
                         </div>
                         <div class="contact-details">
                             <h3>Dirección</h3>
-                            <p>Av. Principal 123, 28001 Madrid, España</p>
+                            <p>Córdoba, Argentina</p>
                         </div>
                     </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Teléfono</h3>
-                            <p>+34 91 123 45 67</p>
-                        </div>
+
                     </div>
                     
                     <div class="contact-item">
@@ -140,7 +133,7 @@
                         </div>
                         <div class="contact-details">
                             <h3>Email</h3>
-                            <p>info@websland.com</p>
+                            <p>websland.support@protonmail.com</p>
                         </div>
                     </div>
                     
@@ -150,17 +143,13 @@
                         </div>
                         <div class="contact-details">
                             <h3>Horario</h3>
-                            <p>Lunes a Viernes: 9:00 - 18:00</p>
-                            <p>Sábados y Domingos: Cerrado</p>
+                            <p>Lunes a Viernes: 3:00pm - 9:00pm</p>
+                            <p>Sábados: 4:00pm - 12:00pm</p>
+                            <p>Domingos: cerrado</p>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.496841048129!2d-3.703790423921337!3d40.41677575586381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287e9a3a5e0f%3A0x8636c2aecb59a2d9!2sPlaza%20Mayor%2C%20Madrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1684321024566!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
     </section>
 
     <!-- Footer -->
